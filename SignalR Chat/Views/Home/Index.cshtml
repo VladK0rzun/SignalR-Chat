@@ -1,0 +1,40 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-3">Total view: </div>
+        <div class="col-4">
+            <span id="totalViewCounter"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">Total Connection/Users: </div>
+        <div class="col-4">
+            <span id="totalUsersCounter"></span>
+        </div>
+    </div>
+    <div>
+        <div class="col-6">Basic chat with Azure Cognitive Services Text Analytics</div>
+        <button class="btn btn-primary" onclick="location.href='@Url.Action("BasicChat", "Home")'">
+            Basic chat
+        </button>
+    </div>
+    <div>
+        <div class="col-6">Chat</div>
+        <div class="col-4">
+            <button class="btn btn-primary" onclick="location.href='@Url.Action("Chat", "Home")'">Chat</button>
+        </div>
+    </div>
+    <div>
+        <div class="col-6">Advanced chat</div>
+        <div class="col-4">
+            <button class="btn btn-primary" onclick="location.href='@Url.Action("AdvancedChat", "Home")'">Adv. Chat</button>
+        </div>
+    </div>
+    
+
+</div>
+
+
+<script src="~/js/signalr.js"></script>
+<script src="~/js/userCount.js"></script>
+
+
