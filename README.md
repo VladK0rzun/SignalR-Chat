@@ -1,0 +1,4 @@
+-Three chats have been implemented.
+-Basic chat has Azure Cognitive Services Text Analytics integration.
+-Chat is available only to authorized users, has more functionality.
+-Advanced Chat has chat functionality but has a different visualization.
